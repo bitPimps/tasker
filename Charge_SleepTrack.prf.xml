@@ -2,7 +2,7 @@
 	<Profile sr="prof14" ve="2">
 		<cdate>1496973351698</cdate>
 		<clp>true</clp>
-		<edate>1497058430764</edate>
+		<edate>1497411388042</edate>
 		<id>14</id>
 		<mid0>12</mid0>
 		<nme>Charge+SleepTrack</nme>
@@ -19,10 +19,18 @@
 	</Profile>
 	<Task sr="task12">
 		<cdate>1496973211012</cdate>
-		<edate>1497013879716</edate>
+		<edate>1497411423324</edate>
 		<id>12</id>
 		<nme>Start Sleep Tracking</nme>
 		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>90406179</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
