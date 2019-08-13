@@ -1,0 +1,106 @@
+<TaskerData sr="" dvi="1" tv="5.8.2">
+	<Profile sr="prof7" ve="2">
+		<cdate>1496852153477</cdate>
+		<clp>true</clp>
+		<edate>1555443679590</edate>
+		<id>7</id>
+		<mid0>6</mid0>
+		<nme>Headset Plugged Any</nme>
+		<State sr="con0" ve="2">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Task sr="task6">
+		<cdate>1496851466124</cdate>
+		<edate>1555443679590</edate>
+		<id>6</id>
+		<nme>Launch Music Menu</nme>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="9"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>551</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconGridMenu</Str>
+			<Int sr="arg3" val="500"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Google Play Music</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.android.music.activitymanagement.TopLevelActivity</appClass>
+						<appPkg>com.google.android.music</appPkg>
+						<label>Play Music</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.android.music.activitymanagement.TopLevelActivity</cls>
+					<pkg>com.google.android.music</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Pocket Casts</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>au.com.shiftyjelly.pocketcasts.ui.MainActivity</appClass>
+						<appPkg>au.com.shiftyjelly.pocketcasts</appPkg>
+						<label>Pocket Casts</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>au.com.shiftyjelly.pocketcasts.ui.MainActivity</cls>
+					<pkg>au.com.shiftyjelly.pocketcasts</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>SiriusXM</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.sirius.android.everest.welcome.WelcomeActivity</appClass>
+						<appPkg>com.sirius</appPkg>
+						<label>SiriusXM</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.sirius.android.everest.welcome.WelcomeActivity</cls>
+					<pkg>com.sirius</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>Spotify</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.spotify.music.MainActivity</appClass>
+						<appPkg>com.spotify.music</appPkg>
+						<label>Spotify</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.spotify.music.MainActivity</cls>
+					<pkg>com.spotify.music</pkg>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+</TaskerData>
